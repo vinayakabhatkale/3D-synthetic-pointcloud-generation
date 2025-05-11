@@ -1,8 +1,8 @@
 {
   "scenes": [
     {
-      "blender_scene": "/home/andi/3dfiles/ModProFT_scene/Additional_Scene_1.blend",
-      "objects": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scene1.json"
+      "blender_scene": "/home/vinayaka/3dfiles/ModProFT_scene/Additional_Scene_1.blend",
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/scene1.json"
     }
   ]
 }

@@ -121,7 +121,7 @@ Keys that are availalble to influence the domain randomization are the following
 |  trans_min/trans_max | List[float] |                                                           Minimum and maximum values for rotation (radian) of the object around each axis (x,y,z)                                                          |    [0.1, 0.2, 0.3]    |
 |  trans_min/trans_max | List[float] |                                                                  Minimum and maximum values for scaling of the object in each axis (x,y,z)                                                                 |    [0.1, 0.2, 0.3]    |
 | remember_orig_values | boolean     | True, if the randomization method should start from original values of an object in the scene, False when continue from the current position,  e.g. if the object is scaled multiple times in different situations | True/true/False/false |
-| texture_img_src      | String      | Path to file that describes the textures allowed for this object/object group, **give absolute file path** | /home/andi/dtd/labels/table.txt |
+| texture_img_src      | String      | Path to file that describes the textures allowed for this object/object group, **give absolute file path** | /home/vinayaka/dtd/labels/table.txt |
 
 **For every key there are default values in the code except for texture_img_src**.
 

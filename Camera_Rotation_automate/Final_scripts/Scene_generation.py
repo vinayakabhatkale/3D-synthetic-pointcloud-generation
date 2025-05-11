@@ -7,7 +7,7 @@ import datetime
 objects_to_swap = ["AdapterboxCAD", "Tablar", "Tablar.001", "Tablar.002", "Adapter_Box"]
 
 # Create a directory to save the scenes
-output_directory = "/home/andi/3dfiles/ModProFT_scene"  # Change this to the directory where you want to save the blend files
+output_directory = "/home/vinayaka/3dfiles/ModProFT_scene"  # Change this to the directory where you want to save the blend files
 
 # Ensure the output directory exists
 os.makedirs(output_directory, exist_ok=True)

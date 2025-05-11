@@ -21,7 +21,7 @@ def scan_kinectv2():
 
         exportLAS=False, exportHDF=True, exportCSV=False, exportSingleFrames=False,
         exportRenderedImage=True, exportSegmentedImage=False, exportPascalVoc=False, exportDepthmap=False, depthMinDistance=0.0, depthMaxDistance=100.0, 
-        dataFilePath="/home/andi/arbeitsraumerkundung/outputs", dataFileName="pcl",
+        dataFilePath="/home/vinayaka/arbeitsraumerkundung/outputs", dataFileName="pcl",
         
         debugLines=False, debugOutput=False, outputProgress=True, measureTime=False, singleRay=False, destinationObject=None, targetObject=None
     )    

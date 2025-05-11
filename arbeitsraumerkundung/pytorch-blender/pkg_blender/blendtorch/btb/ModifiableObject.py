@@ -43,7 +43,7 @@ class ModifiableObject(SceneObject):
 
         if self._texture_enabled is True:
             if texture_img_src is None:
-                self._texture_img_src = "/home/andi/dtd/labels/labels_joint_anno.txt" 
+                self._texture_img_src = "/home/vinayaka/dtd/labels/labels_joint_anno.txt" 
                 print(f"Use complete dtd dataset for {self.name}")
             else:
                 self._texture_img_src = texture_img_src

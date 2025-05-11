@@ -109,7 +109,7 @@ class BlenderLauncher():
         
         seed = self.seed
         if seed is None:
-            seed = np.random.randint(np.iinfo(np.int32).max - self.num_instances)
+            seed = np.random.rvinayakant(np.iinfo(np.int32).max - self.num_instances)
         seeds = [seed + i for i in range(self.num_instances)]
 
         instance_script_args = [[] for _ in range(self.num_instances)]

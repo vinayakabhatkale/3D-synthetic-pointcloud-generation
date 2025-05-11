@@ -53,7 +53,7 @@ sub launch_watchman {
 	# $time but no longer exist).
 	#
 	# To accomplish this, we're using the "since" generator to use the
-	# recency index to select candidate nodes and "fields" to limit the
+	# recency index to select cvinayakadate nodes and "fields" to limit the
 	# output to file names only.
 
 	my $query = <<"	END";

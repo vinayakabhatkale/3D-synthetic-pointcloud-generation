@@ -6,7 +6,7 @@ import random
 objects_to_swap = ["AdapterboxCAD", "Tablar", "Tablar.001", "Tablar.002", "Adapter_Box"]
 
 # Define the directory where you want to save the new .blend files
-directory_path = '/home/andi/3dfiles/ModProFT_scene'
+directory_path = '/home/vinayaka/3dfiles/ModProFT_scene'
 
 
 

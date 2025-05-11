@@ -5,6 +5,6 @@
         ]
     },
     "commands": [
-        "/home/andi/blender-2.93.6-linux-x64/blender /home/andi/3dfiles/pirat.blend --background --python-use-system-env --enable-autoexec --python /home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/generate_training_data.py -- -btid 0 -btseed 10 -btsockets DATA=tcp://141.82.6.59:11000 -scenes /home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scenes.json -defaults /home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/defaults.json"
+        "/home/vinayaka/blender-2.93.6-linux-x64/blender /home/vinayaka/3dfiles/pirat.blend --background --python-use-system-env --enable-autoexec --python /home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/generate_training_data.py -- -btid 0 -btseed 10 -btsockets DATA=tcp://141.82.6.59:11000 -scenes /home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/scenes.json -defaults /home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/defaults.json"
     ]
 }

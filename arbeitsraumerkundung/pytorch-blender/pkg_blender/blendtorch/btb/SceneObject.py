@@ -91,7 +91,7 @@ class SceneObject(BlenderObject):
             a,b = b,a
             print('Warning, a should be smaller than b, switched values a, b')
 
-        x = np.random.randint(a, b)
+        x = np.random.rvinayakant(a, b)
         return x
 
     def random_float(self, a: float=0., b: float=1.) -> float:

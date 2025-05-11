@@ -1,12 +1,12 @@
 {
-    "scene": "/home/andi/3dfiles/pirat.blend",
-    "script": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/generate_training_data.py",
+    "scene": "/home/vinayaka/3dfiles/pirat.blend",
+    "script": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/generate_training_data.py",
     "num_instances": 1,
     "named_sockets": [
         "DATA"
     ],
     "background": true,
-    "instance_args": [["-scenes", "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scenes.json", "-defaults", "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/defaults.json"]],
+    "instance_args": [["-scenes", "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/scenes.json", "-defaults", "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/defaults.json"]],
     "seed": 10,
     "bind_addr": "primaryip"
 }

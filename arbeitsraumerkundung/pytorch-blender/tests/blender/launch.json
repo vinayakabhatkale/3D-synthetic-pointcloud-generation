@@ -1,6 +1,6 @@
 {
-    "scene": "/home/andi/3dfiles/pirat.blend",
-    "script": "/home/andi/arbeitsraumerkundung/pytorch-blender/tests/blender/launcher.blend.py",
+    "scene": "/home/vinayaka/3dfiles/pirat.blend",
+    "script": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/tests/blender/launcher.blend.py",
     "num_instances": 1,
     "named_sockets": [
         "DATA",

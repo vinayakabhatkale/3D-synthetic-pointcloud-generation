@@ -116,5 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export KIRAF_HOME=/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/
-export BTB_HOME=/home/andi/arbeitsraumerkundung/pytorch-blender/pkg_blender/blendtorch/btb
+export KIRAF_HOME=/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/
+export BTB_HOME=/home/vinayaka/arbeitsraumerkundung/pytorch-blender/pkg_blender/blendtorch/btb

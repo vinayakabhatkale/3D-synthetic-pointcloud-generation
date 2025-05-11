@@ -18,7 +18,7 @@ import random
 import json
 from typing import Tuple
 import logging
-logging.basicConfig(filename='/home/andi/arbeitsraumerkundung/synth_data_generation.log', level=logging.INFO)
+logging.basicConfig(filename='/home/vinayaka/arbeitsraumerkundung/synth_data_generation.log', level=logging.INFO)
 
 import open3d as o3d
 
@@ -280,7 +280,7 @@ class AnimationMethods:
         """
         now = datetime.now()
         #result = np.load('./result.npy').T
-        result = self.__scanner.scan(path="/home/andi/arbeitsraumerkundung/outputs/training_data", export_hdf=True,export_np=True, export_rendered_img=False, export_single_frames=False, filename= now.strftime("%M:%S"), addNoise=self.add_noise)
+        result = self.__scanner.scan(path="/home/vinayaka/arbeitsraumerkundung/outputs/training_data", export_hdf=True,export_np=True, export_rendered_img=False, export_single_frames=False, filename= now.strftime("%M:%S"), addNoise=self.add_noise)
 
         # if there is no point cloud we should make all objects visible again and maybe try 
         # to reset camera position

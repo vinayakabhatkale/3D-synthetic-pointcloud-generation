@@ -3,7 +3,7 @@ import bpy
 import yaml
 
 class Scanner:
-    def __init__(self, path_to_presets: str='/home/andi/.config/blender/2.93/scripts/addons/range_scanner/ui/presets.yaml', cam_type: str='realsense'):
+    def __init__(self, path_to_presets: str='/home/vinayaka/.config/blender/2.93/scripts/addons/range_scanner/ui/presets.yaml', cam_type: str='realsense'):
         with open(path_to_presets, "r") as f:
             try:
                 data = yaml.safe_load(f)
@@ -23,7 +23,7 @@ class Scanner:
                 print(exc)
 
     def scan(self, export_rendered_img: bool=False, export_np: bool=	True, export_seg_img: bool=False, export_hdf: bool=False,
-            export_csv: bool=False, path: str="/home/andi/arbeitsraumerkundung/outputs", filename: str="pcl", 
+            export_csv: bool=False, path: str="/home/vinayaka/arbeitsraumerkundung/outputs", filename: str="pcl", 
             export_single_frames: bool=False, addNoise: bool=False):
         result = range_scanner.ui.user_interface.scan_static(
             bpy.context, 

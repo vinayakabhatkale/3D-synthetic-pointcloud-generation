@@ -48,7 +48,7 @@ class Visualizations:
                 pcd, o3d.utility.DoubleVector(radii))
             
             #for extension in ['.ply', '.obj', '.glb']:
-            #    o3d.io.write_triangle_mesh(f'/home/andi/reconstructed{extension}', rec_mesh)
+            #    o3d.io.write_triangle_mesh(f'/home/vinayaka/reconstructed{extension}', rec_mesh)
             o3d.visualization.draw_geometries([pcd, rec_mesh])
 
     def visualize_point_cloud2(self, points: np.ndarray= None, point_labels: np.ndarray=None, filename: str=None, from_hdf: bool=True) -> None:
@@ -124,4 +124,4 @@ if __name__ == '__main__':
     #        viz.visualize_point_cloud(filename=f)
     #elif os.path.isfile(sys.argv[1]):
     #    viz.visualize_point_cloud(filename=sys.argv[1])
-    viz.visualize_point_cloud(filename='/home/andi/11_43_frames_1_to_1_merged.hdf5')
+    viz.visualize_point_cloud(filename='/home/vinayaka/11_43_frames_1_to_1_merged.hdf5')

@@ -5,12 +5,12 @@
 PATH_TO_PY=./main.py
 
 # file of txt file with camera positions
-PATH_TO_CAM_POS=/home/andi/BlenderProc/examples/resources/pirat_cam_pos
+PATH_TO_CAM_POS=/home/vinayaka/BlenderProc/examples/resources/pirat_cam_pos
 
 # blender file containing semantic seg info
 # TODO convert to only directory so that more scenes can be loaded
 # or describe certain scenes in main script
-PATH_TO_BLEND_FILE=/home/andi/3dfiles/pirat.blend
+PATH_TO_BLEND_FILE=/home/vinayaka/3dfiles/pirat.blend
 
 # path to folder that gets stored plots
 PATH_TO_OUTPUT=./outputs

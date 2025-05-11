@@ -23,16 +23,16 @@ services:
       dockerfile: ./Dockerfile
     volumes:
       # Map workspace folders.
-      - ./scripts/:/home/andi/scripts/
-      - ./share/:/home/andi/share/
-      - ./arbeitsraumerkundung/:/home/andi/arbeitsraumerkundung/
-      - ./range_scanner/scanners/lidar.py:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/scanners/lidar.py
-      - ./range_scanner/ui/user_interface.py:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/ui/user_interface.py
-      - ./range_scanner/ui/presets.yaml:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/ui/presets.yaml
-      - ./range_scanner/export/exporter.py:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/export/exporter.py
-      - ./range_scanner/export/export_np.py:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/export/export_np.py
-      - ../3dfiles:/home/andi/3dfiles
-      - ../dtd:/home/andi/dtd
+      - ./scripts/:/home/vinayaka/scripts/
+      - ./share/:/home/vinayaka/share/
+      - ./arbeitsraumerkundung/:/home/vinayaka/arbeitsraumerkundung/
+      - ./range_scanner/scanners/lidar.py:/home/vinayaka/.config/blender/2.93/scripts/addons/range_scanner/scanners/lidar.py
+      - ./range_scanner/ui/user_interface.py:/home/vinayaka/.config/blender/2.93/scripts/addons/range_scanner/ui/user_interface.py
+      - ./range_scanner/ui/presets.yaml:/home/vinayaka/.config/blender/2.93/scripts/addons/range_scanner/ui/presets.yaml
+      - ./range_scanner/export/exporter.py:/home/vinayaka/.config/blender/2.93/scripts/addons/range_scanner/export/exporter.py
+      - ./range_scanner/export/export_np.py:/home/vinayaka/.config/blender/2.93/scripts/addons/range_scanner/export/export_np.py
+      - ../3dfiles:/home/vinayaka/3dfiles
+      - ../dtd:/home/vinayaka/dtd
       - /dev/:/dev/
       # Grant display access to X Server.
       - /tmp/.X11-unix:/tmp/.X11-unix
@@ -41,7 +41,7 @@ services:
       # Grant access to serial usb ports for u2d2
       - /dev/for_docker:/dev/for_docker
     network_mode: host
-    command: /home/andi/scripts/keep-running.bash
+    command: /home/vinayaka/scripts/keep-running.bash
     # deploy:
     #   resources:
     #     reservations:
