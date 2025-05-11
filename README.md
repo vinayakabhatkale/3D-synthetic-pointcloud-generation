@@ -3,8 +3,13 @@
 Overview
 This repository is for generating synthetic data for training using Blender scenes generated using STL of 3D objects on blender. Apply material property and texture using the dtd directory, find more textures from dtd dataset here here (https://www.robots.ox.ac.uk/~vgg/data/dtd/ ). In my project the realsense D435i data has been used as a realdata and the realdata has been manually labelled using SegmentsAI(https://segments.ai/). The container is to generate 3D pointcloud synthetic data with class labels. 
 
-##How does the pipeline work?
+**How does the pipeline work?**
 ![](./images/blaindtorch_blainder_1.png)
+
+The pipeline works this way:
+
+![](./images/process_synth_data.png)
+
 
 ## Installation 
 
