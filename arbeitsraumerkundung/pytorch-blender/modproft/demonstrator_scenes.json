@@ -2,15 +2,15 @@
   "scenes": [
     {
       "blender_scene": "/home/vinayaka/3dfiles/demonstrator_1.blend",
-      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/demonstrator1.json"
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/demonstrator1.json"
     },
     {
       "blender_scene": "/home/vinayaka/3dfiles/demonstrator_2.blend",
-      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/demonstrator2.json"
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/demonstrator2.json"
     },
     {
       "blender_scene": "/home/vinayaka/3dfiles/demonstrator_3.blend",
-      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/demonstrator3.json"
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/demonstrator3.json"
     }
   ],
   "texture_img_src": "/home/vinayaka/dtd/labels/labels_joint_anno.txt"

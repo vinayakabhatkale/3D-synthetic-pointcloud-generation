@@ -7,13 +7,13 @@ Synthetic data generation for workspace exploration with BlAInder and BlendTorch
 # Overview
 
 This repository is for generating synthetic data for 3D point cloud processing. With [BlAInder](https://github.com/ln-12/blainder-range-scanner) it is possible to generate synthetic and automatically labelled point clouds.
-As in the KIraF use case, a neural network was trained for predicting semantic labels in a point cloud, another framework - [BlendTorch](https://github.com/cheind/pytorch-blender) - was integrated.
+As in the modproft_vinayaka use case, a neural network was trained for predicting semantic labels in a point cloud, another framework - [BlendTorch](https://github.com/cheind/pytorch-blender) - was integrated.
 BlendTorch was used as basis for domain randomization.
 Multiple Blender scenes will be used as basis for domain randomization methods and for semantic point cloud generation.
 
 ![](images/concept.png)
 
-When starting a synthetic data generation, a receiving side has to be available. Follow therefore the instuctions in [the ros-deepview](https://gitlab.elektrotechnik.hs-augsburg.de/ttz/kiraf/ros-deepview) repository.
+When starting a synthetic data generation, a receiving side has to be available. Follow therefore the instuctions in [the ros-deepview](https://gitlab.elektrotechnik.hs-augsburg.de/ttz/modproft_vinayaka/ros-deepview) repository.
 
 The process when generating synthetic data can be seen in this image:
 
@@ -148,7 +148,7 @@ So don't forget to change the unit in Blender to radian (on the right side -> sc
 
 ### Global config file
 
-Similar to the default_values in the scene specific file, a group of objects can be parameterized with one entry in [this file](./arbeitsraumerkundung/pytorch-blender/kiraf/defaults.json').
+Similar to the default_values in the scene specific file, a group of objects can be parameterized with one entry in [this file](./arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/defaults.json').
 
 ```json
 "table":
@@ -199,18 +199,18 @@ If you want to use the newly created camera, change the identifier in [this file
 
 ## Starting the process
 
-Change the working directory to either [this](./arbeitsraumerkundung/pytorch-blender/kiraf/) or to [this](./arbeitsraumerkundung/pytorch-blender/pkg_blender/blendtorch/btb/')
+Change the working directory to either [this](./arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/) or to [this](./arbeitsraumerkundung/pytorch-blender/pkg_blender/blendtorch/btb/')
 Launching the process can be done like described in the [BlendTorch repository](https://github.com/cheind/pytorch-blender)
 
 ```bash
 blendtorch-launch launch.json
 ```
 
-To decide which Blender scenes should be used there is [this file](./arbeitsraumerkundung/pytorch-blender/kiraf/scenes.json') as determined in the [launch.json](./arbeitsraumerkundung/pytorch-blender/kiraf/launch.json).
+To decide which Blender scenes should be used there is [this file](./arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scenes.json') as determined in the [launch.json](./arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/launch.json).
 Here the Blender scene and the according scene specific config file has to be given.
 
 
-Additionally there is the possibility to let the process run, without having to have to receiving side running. Therefore, in the [this file](./arbeitsraumerkundung/pytorch-blender/kiraf/generate_training_data.py) change the publish attribute to *False*.
+Additionally there is the possibility to let the process run, without having to have to receiving side running. Therefore, in the [this file](./arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/generate_training_data.py) change the publish attribute to *False*.
 When doing this, the results will not be stored except an export option is set to True in [this file](./arbeitsraumerkundung/pytorch-blender/pkg_blender/blendtorch/btb/animation_methods.py) when scanning the world.
 
 ## Debugging blender

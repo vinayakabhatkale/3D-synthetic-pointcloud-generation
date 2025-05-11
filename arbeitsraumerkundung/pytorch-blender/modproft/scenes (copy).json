@@ -2,7 +2,7 @@
   "scenes": [
     {
       "blender_scene": "/home/vinayaka/3dfiles/scene1_wo_textures.blend",
-      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/scene1.json"
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scene1.json"
     }
   ]
 }

@@ -89,7 +89,7 @@ json_data = {
 }
 
 # Write the JSON data to a file
-with open("/home/vinayaka/arbeitsraumerkundung/pytorch-blender/kiraf/scene1.json", "w+") as json_file:
+with open("/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scene1.json", "w+") as json_file:
     json.dump(json_data, json_file, indent=2)
 
 # Update the scene to reflect the changes
