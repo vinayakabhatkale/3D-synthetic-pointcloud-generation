@@ -8,7 +8,7 @@ This repository is for generating synthetic data for training using Blender scen
 
 The pipeline works this way:
 
-![](./images/process_synth_data.png)
+![](./images/Process_of_data_generation.png)
 
 
 ## Installation 
