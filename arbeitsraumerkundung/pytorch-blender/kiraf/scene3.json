@@ -1,0 +1,57 @@
+{
+  "objects": [
+    {
+      "name": "table",
+      "translation_enabled": "False",
+      "rotation_enabled": "False",
+      "scaling_enabled": "False",
+      "visibility_enabled": "False"
+    },
+    {
+      "name": "storage_rack",
+      "scale_dim_enabled": "XY",
+      "rot_dim_enabled": "Z",
+      "remember_orig_values": "True"
+    },
+    {
+      "name": "shadow_board",
+      "trans_dim": "XY",
+      "trans_max": [0.2, 0.2, 0.2]
+    }
+  ],
+  "cam_pos":[
+    {
+      "location": "-0.1017,-1.4853,1.5920",
+      "orientation": "1.2513,-0.01203,-1.8904"
+    },
+    {
+      "location": "-0.10178,-1.9465,1.5920",
+      "orientation": "1.2513,-0.0121,-1.00392"
+    },
+    {
+      "location": "-0.08347,-1.9515,1.5074",    
+      "orientation": "0.6487,-0.34593,-2.88253"
+    }
+
+  ],
+  "default_values":
+  {
+    "klt":
+    {
+      "trans_max": "0.2,0.01,0.2",
+      "trans_min": "-0.2, -0.01, -0.2"
+    },
+    "storage_bin":
+    {
+      "trans_max": "0.2,0.01,0.2",
+      "trans_min": "-0.2, -0.01, -0.2"
+    },
+    "storage_rack":
+    {
+      "visibility_enabled": "False",
+      "scale_dim_enabled": "XY",
+      "rot_dim_enabled": "Z",
+      "remember_orig_values": "True"
+    }
+  }
+}

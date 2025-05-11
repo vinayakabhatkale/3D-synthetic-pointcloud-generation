@@ -1,0 +1,43 @@
+{
+  "objects": [
+    
+  ],
+  "cam_pos":[
+    {
+      "location": "0.4182,0.83983,1.9677",
+      "orientation": "0.9391,-0.02496,-0.15606"
+    },
+    {
+      "location": "0.72735,0.83983,1.9101",
+      "orientation": "1.025170,-0.01134,-0.15763"
+    },
+    {
+      "location": "0.72735,0.714350,1.5843",
+      "orientation": "1.0251,-0.01134,-0.15763"
+    },
+    {
+      "location": "0.30584,0.71435,1.5843",
+      "orientation": "1.0252,-0.01134,-0.15763"
+    }
+
+  ],
+  "default_values":
+  {
+    "storage_bin":
+    {
+      "trans_dim_enabled": "XZ"
+    },
+    "working_place":
+    {
+      "scale_dim_enabled": "XY",
+      "rot_dim_enabled": "Z",
+      "remember_orig_values": "True",
+      "visibility_enabled": "False"
+    },
+    "table":
+    {
+      "visibility_enabled": "False",
+      "remember_orig_values": "True"
+    }
+  }
+ }

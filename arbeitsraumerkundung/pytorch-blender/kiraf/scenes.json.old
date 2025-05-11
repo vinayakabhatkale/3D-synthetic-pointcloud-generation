@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    {
+      "blender_scene": "/home/andi/3dfiles/pirat.blend",
+      "objects": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/pirat.json"
+    },
+    {
+      "blender_scene": "/home/andi/3dfiles/scene1.blend",
+      "objects": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scene1.json"
+    },
+    {
+      "blender_scene": "/home/andi/3dfiles/scene2.blend",
+      "objects": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scene2.json"
+    },
+    {
+      "blender_scene": "/home/andi/3dfiles/scene3.blend",
+      "objects": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scene3.json"
+    },
+    {
+      "blender_scene": "/home/andi/3dfiles/scene4.blend",
+      "objects": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scene4.json"
+    },
+    {
+      "blender_scene": "/home/andi/3dfiles/scene5.blend",
+      "objects": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scene5.json"
+    },
+    {
+      "blender_scene": "/home/andi/3dfiles/scene6.blend",
+      "objects": "/home/andi/arbeitsraumerkundung/pytorch-blender/kiraf/scene6.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "addresses": {
+        "DATA": [
+            "tcp://172.21.0.4:11000"
+        ],
+        "GYM": [
+            "tcp://172.21.0.4:11001"
+        ]
+    },
+    "commands": [
+        "/home/andi/blender-2.93.6-linux-x64/blender /home/andi/3dfiles/pirat.blend --background --python-use-system-env --enable-autoexec --python /home/andi/arbeitsraumerkundung/pytorch-blender/tests/blender/launcher.blend.py -- -btid 0 -btseed 10 -btsockets DATA=tcp://172.21.0.4:11000 GYM=tcp://172.21.0.4:11001"
+    ]
+}

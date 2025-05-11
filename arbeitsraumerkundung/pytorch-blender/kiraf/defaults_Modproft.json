@@ -1,0 +1,42 @@
+{
+  "Adapter_Box":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/metallic.txt"
+  },
+  "Tablar":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/Plastic_tray.txt"
+  },
+  "Tablar.001":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/Plastic_tray.txt"
+  },
+  "Tablar.002":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/Plastic_tray.txt"
+  },
+  "Table":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/table.txt"
+  },
+  "Table.001":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/table.txt"
+  },
+  "Adapter_Box.001":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/metallic.txt"
+  },
+  "PCB":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/pcb.txt"
+  },
+  "PCB.001":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/pcb.txt"
+  },
+  "Floor":
+  {
+    "texture_img_src": "/home/andi/dtd/labels/marbled.txt"
+  }
+}

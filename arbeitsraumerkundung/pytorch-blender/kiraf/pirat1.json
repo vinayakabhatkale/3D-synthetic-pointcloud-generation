@@ -1,0 +1,45 @@
+{
+  "objects": [
+    {
+      "name": "table",
+      "translation_enabled": "False",
+      "rotation_enabled": "False",
+      "scaling_enabled": "False",
+      "visibility_enabled": "False"
+    },
+    {
+      "name": "shadow_board",
+      "trans_dim": "XY",
+      "trans_max": [0.2, 0.2, 0.2]
+    }
+  ],
+  "cam_pos":[
+    {
+      "location": "-0.9613,-0.0988,1.3790",
+      "orientation": "1.2805,0.00000,-1.91616"
+    },
+    {
+      "location": "-0.4891,-0.3420,1.3013",
+      "orientation": "0.07617,-0.1765,-1.86920"
+    },
+    {
+      "location": "-0.9613,-0.2270,1.3001",
+      "orientation": "1.0651,0.10962,-3.02833"
+    }
+  ],
+  "default_values":
+  {
+    "klt":
+    {
+      "trans_max": "0.2,0.01,0.2",
+      "trans_min": "-0.2, -0.01, -0.2"
+    },
+    "storage_rack":
+    {
+      "visibility_enabled": "False",
+      "scale_dim_enabled": "XY",
+      "rot_dim_enabled": "Z",
+      "remember_orig_values": "True"
+    }
+  }
+}

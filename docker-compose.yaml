@@ -1,0 +1,57 @@
+version: "2.4"
+################################################################################
+
+services:
+  btorch_blainder:
+    hostname: btorch_blainder
+    runtime: ${DOCKER_RUNTIME}
+    privileged: true
+    environment:
+      # Pass host user information.
+      - HOST_USER=${USER}
+      - HOST_UID=1000
+      - HOST_GID=1000
+      # Display X Server GUI.
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1
+        #      # Configure Nvidia Docker interface.
+        #      - NVIDIA_VISIBLE_DEVICES=all
+        #      - NVIDIA_DRIVER_CAPABILITIES=all
+        #      - NVIDIA_REQUIRE_CUDA=cuda>=9.0
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      # Map workspace folders.
+      - ./scripts/:/home/andi/scripts/
+      - ./share/:/home/andi/share/
+      - ./arbeitsraumerkundung/:/home/andi/arbeitsraumerkundung/
+      - ./range_scanner/scanners/lidar.py:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/scanners/lidar.py
+      - ./range_scanner/ui/user_interface.py:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/ui/user_interface.py
+      - ./range_scanner/ui/presets.yaml:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/ui/presets.yaml
+      - ./range_scanner/export/exporter.py:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/export/exporter.py
+      - ./range_scanner/export/export_np.py:/home/andi/.config/blender/2.93/scripts/addons/range_scanner/export/export_np.py
+      - ../3dfiles:/home/andi/3dfiles
+      - ../dtd:/home/andi/dtd
+      - /dev/:/dev/
+      # Grant display access to X Server.
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      # Grant bus access to FlexBE App.
+      #- /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket
+      # Grant access to serial usb ports for u2d2
+      - /dev/for_docker:/dev/for_docker
+    network_mode: host
+    command: /home/andi/scripts/keep-running.bash
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+            #- driver: nvidia
+              #          count: 1
+              #          capabilities: [gpu]
+
+    # networks:
+    #  - blender_default
+    #networks:
+    #blender_default:
+    #external: true

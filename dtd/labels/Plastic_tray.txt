@@ -1,0 +1,4 @@
+shadow_board/board1.jpg shadow_board
+shadow_board/board2.jpg shadow_board
+shadow_board/board3.jpg shadow_board
+shadow_board/board4.jpg shadow_board

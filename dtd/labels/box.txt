@@ -1,0 +1,6 @@
+boxes/blue1.jpg boxes
+boxes/blue2.jpg boxes
+boxes/blue3.jpg boxes
+boxes/green.jpg boxes
+boxes/green2.jpg boxes
+boxes/orange.jpg boxes

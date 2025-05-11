@@ -1,0 +1,3 @@
+storage_rack/one.jpg storage_rack
+storage_rack/two.jpg storage_rack
+storage_rack/three.jpg storage_rack
