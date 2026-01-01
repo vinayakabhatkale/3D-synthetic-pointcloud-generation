@@ -1,0 +1,2 @@
+table/table1.jpg table
+table/table2.jpg table

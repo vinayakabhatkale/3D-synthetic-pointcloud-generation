@@ -1,0 +1,32 @@
+{
+  "scenes": [
+    {
+      "blender_scene": "/home/vinayaka/3dfiles/pirat.blend",
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/pirat.json"
+    },
+    {
+      "blender_scene": "/home/vinayaka/3dfiles/scene1.blend",
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scene1.json"
+    },
+    {
+      "blender_scene": "/home/vinayaka/3dfiles/scene2.blend",
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scene2.json"
+    },
+    {
+      "blender_scene": "/home/vinayaka/3dfiles/scene3.blend",
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scene3.json"
+    },
+    {
+      "blender_scene": "/home/vinayaka/3dfiles/scene4.blend",
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scene4.json"
+    },
+    {
+      "blender_scene": "/home/vinayaka/3dfiles/scene5.blend",
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scene5.json"
+    },
+    {
+      "blender_scene": "/home/vinayaka/3dfiles/scene6.blend",
+      "objects": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scene6.json"
+    }
+  ]
+}

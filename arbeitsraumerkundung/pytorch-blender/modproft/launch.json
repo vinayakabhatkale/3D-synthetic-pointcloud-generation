@@ -1,0 +1,14 @@
+{
+    "scene": "/home/vinayaka/3dfiles/pirat.blend",
+    "script": "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/generate_training_data.py",
+    "num_instances": 1,
+    "named_sockets": [
+        "DATA"
+    ],
+    "background": true,
+    "instance_args": [["-scenes", "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/scenes.json", "-defaults", "/home/vinayaka/arbeitsraumerkundung/pytorch-blender/modproft_vinayaka/defaults.json"]],
+    "seed": 10,
+    "bind_addr": "primaryip"
+
+}
+
